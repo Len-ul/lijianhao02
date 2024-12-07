@@ -1,0 +1,30 @@
+{
+  "id": "4773462",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9231537",
+      "name": "摄影",
+      "font_class": "sheying",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "4553736",
+      "name": "通讯录",
+      "font_class": "tongxunlu1",
+      "unicode": "e7de",
+      "unicode_decimal": 59358
+    },
+    {
+      "icon_id": "8843964",
+      "name": "小三角",
+      "font_class": "xiaosanjiao",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    }
+  ]
+}

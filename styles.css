@@ -1,0 +1,182 @@
+@import"iconfont.css";
+.mailbox{
+    width:640px;
+    height: 360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid snow;
+}
+.box{
+    display: flex;
+    width: 600px;
+    height: 330px;
+    box-shadow: 2px 2px 20px 4px #39c8d2;
+    border-radius: 15px;
+    flex-direction: column;
+}
+/*logo-line*/
+.logoline{
+    width: 600px;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.word{
+    font-size: 20px;
+    font-weight: bolder;
+}
+/*nav-line*/
+.navbox{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:510px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #f7fdff;
+}
+.nav span{
+    color: black;
+    font-size: 12px;
+}
+.nav a{
+    color:#39c8d2;
+    font-size: 12px;
+}
+/*hint-line*/
+.hint{
+    width: 600px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.word1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+/*main-part*/
+.mainpart{
+    width: 600px;
+    height: 145px;
+    display: flex;
+    justify-content: flex-start;
+}
+.menu{
+    width: 80px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+button{
+    width:49px;
+    height:25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    background-color: #e6f9fc;
+    font-size:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 6px solid white;
+    border-bottom: 6px solid white;
+    border-left: 6px solid transparent;
+    position: absolute;
+    left:74px;
+}
+button:active,button:active:before{
+    background-color: #39c8d2;
+}
+.menu span{
+    font-size: 8px;
+}
+a{
+    text-decoration: none;
+}
+.messages{
+    width: 450px;
+    height: 145px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.email{
+    width: 450px;
+    height: 40px;
+    margin-bottom: 8px;
+    margin-right: -20px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,#e6f9fc,white);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.port-image{
+    margin-left: 10px;
+    font-size: 4px;
+    width: 40px;
+    height: 40px;
+}
+.omit{
+    margin-left: 10px;
+    font-size: 4px;
+}
+.time{
+    margin-left: 90px;
+    font-size: 4px;
+}
+.del{
+    margin-left: 30px;
+    font-size: 4px;
+}
+.return{
+    margin-left: 20px;
+    font-size: 4px;
+}
+.write{
+    width: 50px;
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+}
+.gowrite{
+    width: 45px;
+    height: 18px;
+    border-radius: 8px;
+    background-color: #39c8d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gowrite span{
+    font-size: 4px;
+}
+/*rect-line*/
+.rect-image{
+    width: 600px;
+    height: 20px;
+}
